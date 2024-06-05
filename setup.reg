@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ydl]
+@="URL:ydl Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ydl\shell]
+
+[HKEY_CLASSES_ROOT\ydl\shell\open]
+
+[HKEY_CLASSES_ROOT\ydl\shell\open\command]
+@="\"C:\\Path\\To\\YdlProtocol\\YdlProtocol.exe\" \"%1\""
