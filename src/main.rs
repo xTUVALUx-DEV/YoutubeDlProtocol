@@ -20,10 +20,8 @@ fn handle_url(url: &str) {
         let url = "https://".to_string() + resource;
         if resource.contains("you"){
             let _ = Command::new("youtube-dl.exe").args([url]).spawn();
-            show_notification("", &format!("Handling custom URL protocol: ydl://{}", resource));
-            
+            show_notification("", &format!("Downloading: https://{}", resource));  
         }
-        // Here you can add your custom handling logic
     } else {
         eprintln!("Invalid URL protocol");
     }
