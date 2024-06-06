@@ -1,4 +1,4 @@
-#Requirements
+# Requirements
 - https://github.com/ytdl-org/ytdl-nightly/releases/ needs to be installed and in the users path.
 
 # Usage
